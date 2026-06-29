@@ -1,7 +1,10 @@
 # ckeditor5-simple-space
 
 [![npm version](https://img.shields.io/npm/v/ckeditor5-simple-space.svg)](https://www.npmjs.com/package/ckeditor5-simple-space)
-[![license](https://img.shields.io/npm/l/ckeditor5-simple-space.svg)](https://github.com/oumarkonate/ckeditor5-simple-space/blob/main/LICENSE.md)
+[![license: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/oumarkonate/ckeditor5-simple-space/blob/main/LICENSE.md)
+[![CKEditor 5](https://img.shields.io/badge/CKEditor%205-v47.3%2B-blue.svg)](https://ckeditor.com/ckeditor-5/)
+[![dependencies: none](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](package.json)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/oumarkonate/ckeditor5-simple-space/pulls)
 
 A small **CKEditor 5** plugin that makes regular **space characters visible** in the editing area, with a
 toolbar button to toggle them on and off — similar to the "formatting marks" feature of a word processor.
@@ -17,7 +20,7 @@ copy‑paste keeps working normally. The plugin has **no runtime dependencies**.
 
 ## How it looks
 
-https://github.com/user-attachments/assets/6d6985c1-55ca-40a3-b92c-9a905628304e
+https://github.com/user-attachments/assets/7fc07bef-4984-453c-942b-aba45d8a5250
 
 ▶ [Watch the demo](docs/demo.mp4)
 
@@ -220,6 +223,14 @@ npm test       # Jest unit tests (editing converter, command, UI)
 npm run lint   # ESLint
 npm run sample # Vite dev server for the demo on http://localhost:8000/sample/
 ```
+
+## Keywords
+
+`ckeditor` · `ckeditor5` · `ckeditor 5` · `ckeditor5-plugin` · `ckeditor5-feature` · `ckeditor5-dll` ·
+`whitespace` · `spaces` · `invisible-characters` · `formatting-marks`
+
+These mirror the `keywords` field in [`package.json`](package.json) — used by npm search and to help others
+discover the plugin.
 
 ## Credits
 
