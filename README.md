@@ -20,7 +20,7 @@ copy‑paste keeps working normally. The plugin has **no runtime dependencies**.
 
 ## How it looks
 
-https://github.com/user-attachments/assets/6d6985c1-55ca-40a3-b92c-9a905628304e
+https://github.com/user-attachments/assets/7fc07bef-4984-453c-942b-aba45d8a5250
 
 ▶ [Watch the demo](docs/demo.mp4)
 
