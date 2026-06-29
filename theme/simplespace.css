@@ -1,0 +1,50 @@
+/*
+ * Styles for the Simple Space feature.
+ *
+ * Space markers are only shown when the editing root carries the `.ck-show-simple-spaces` class,
+ * which the `simpleSpace` command toggles. By default, the markers are invisible.
+ *
+ * Import this file in your application:
+ *
+ *     import 'ckeditor5-simple-space/theme/simplespace.css';
+ *
+ * Each space is wrapped in a `<simple-space>` element (editing view only). The marker is drawn as an
+ * absolutely positioned `::after`, centered over the space — so it stays visible at any line height and
+ * does not shift the surrounding text.
+ */
+
+.ck-show-simple-spaces simple-space {
+	/* Containing block for the absolutely positioned marker below. */
+	position: relative;
+}
+
+.ck-show-simple-spaces simple-space::after {
+	background: url("data:image/svg+xml,%3Csvg width='4' height='9' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h4v9H0z' fill='%234A90E2'/%3E%3C/svg%3E") no-repeat center / contain;
+	content: '';
+	height: 9px;
+	left: 50%;
+	pointer-events: none;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 4px;
+}
+
+/*
+ * Alternative marker: a centered middle dot (·) instead of the blue bar.
+ * Remove the rule above and uncomment this one to use it.
+ *
+ * .ck-show-simple-spaces simple-space {
+ *     position: relative;
+ * }
+ *
+ * .ck-show-simple-spaces simple-space::after {
+ *     color: #b3b3b3;
+ *     content: '\00B7';
+ *     left: 50%;
+ *     pointer-events: none;
+ *     position: absolute;
+ *     top: 50%;
+ *     transform: translate(-50%, -50%);
+ * }
+ */
